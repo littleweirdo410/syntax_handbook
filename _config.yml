@@ -4,4 +4,9 @@ theme: just-the-docs
 url: https://littleweirdo410.github.io/syntax_handbook
 
 aux_links:
-  Template Repository: https://littleweirdo410.github.io/syntax_handbook
+  "GitHub":
+    - "//github.com/littleweirdo410/syntax_handbook"
+
+aux_links_new_tab: true
+
+heading_anchors: true
