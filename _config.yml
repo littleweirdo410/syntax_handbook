@@ -4,6 +4,9 @@ theme: just-the-docs
 plugins:
   - jekyll-toc
 
+toc:
+  ordered_list: true
+
 url: https://littleweirdo410.github.io/syntax_handbook
 
 aux_links:
@@ -13,13 +16,3 @@ aux_links:
 aux_links_new_tab: true
 
 heading_anchors: true
-
-nav_enabled: true
-
-kramdown:
-  toc_levels: 1..6
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
