@@ -13,3 +13,5 @@ heading_anchors: true
 
 nav_enabled: true
 
+kramdown:
+  parse_block_html: true
