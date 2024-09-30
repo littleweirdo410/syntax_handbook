@@ -1,6 +1,9 @@
 title: SYNTAX
 theme: just-the-docs
 
+plugins:
+  - jekyll-toc
+
 url: https://littleweirdo410.github.io/syntax_handbook
 
 aux_links:
