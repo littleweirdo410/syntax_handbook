@@ -7,7 +7,7 @@ toc: true
 
 <ins>Содержание:</ins>
 
-{{ "/getting-started.html" | toc_only }}
+{{ page.content | toc_only }}
 
 # Компоненты языка. Как относятся друг к другу грамматика и синтаксис?
 
