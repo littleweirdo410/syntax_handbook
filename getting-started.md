@@ -1,6 +1,6 @@
 ---
 nav_order: 2
-layout: default
+layout: chapter
 title: Основные определения. Место синтаксиса среди других разделов лингвистики
 toc: true
 ---
