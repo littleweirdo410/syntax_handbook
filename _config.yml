@@ -14,8 +14,6 @@ heading_anchors: true
 nav_enabled: true
 
 kramdown:
-  input: kramdown
-  parse_block_html: true
   toc_levels: 1..6
 
 exclude:
