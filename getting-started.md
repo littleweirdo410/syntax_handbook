@@ -9,7 +9,9 @@ toc: true
 
 <ins>Содержание:</ins>
 
-{{ page_content | toc_only }}
+<div class="toc">
+    {{ page_content | toc_only }}
+</div>
 
 # Компоненты языка. Как относятся друг к другу грамматика и синтаксис?
 
