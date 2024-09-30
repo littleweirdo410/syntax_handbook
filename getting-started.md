@@ -5,9 +5,11 @@ title: Основные определения. Место синтаксиса 
 toc: true
 ---
 
+{% assign page_content = content %}
+
 <ins>Содержание:</ins>
 
-{{ page.content | toc_only }}
+{{ page_content | toc_only }}
 
 # Компоненты языка. Как относятся друг к другу грамматика и синтаксис?
 
