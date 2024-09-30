@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html>
-<body>
-    <!-- Оглавление текущей страницы -->
-    <div class="toc">
-      <p><ins>Содержание:</ins></p>
+<div class="toc">
+    <p><ins>Содержание:</ins></p>
       
-        {{ content | toc_only }}
-    </div>
+    {{ content | toc_only }}
+</div>
 
-    <!-- Основное содержимое страницы -->
-    <div class="markdown-content">
-        {{ content }}
-    </div>
-</body>
-</html>
+<div class="markdown-content">
+    {{ content }}
+</div>
