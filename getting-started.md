@@ -7,7 +7,14 @@ toc: true
 
 <ins>Содержание:</ins>
 
-{% toc %}
+<div>
+  <div id="table-of-contents">
+    {{ content | toc_only }}
+  </div>
+  <div id="markdown-content">
+    {{ content | inject_anchors }}
+  </div>
+</div>
 
 # Компоненты языка. Как относятся друг к другу грамматика и синтаксис?
 
