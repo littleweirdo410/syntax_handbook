@@ -1,9 +1,15 @@
+---
+layout: default
+---
+
+<!-- Оглавление страницы -->
 <div class="toc">
     <p><ins>Содержание:</ins></p>
-      
+    
     {{ content | toc_only }}
 </div>
 
-<div class="markdown-content">
-    {{ content }}
-</div>
+<!-- Основное содержимое страницы -->
+{{ content }}
+
+<div class="toc">
