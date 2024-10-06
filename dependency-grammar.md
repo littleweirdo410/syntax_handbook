@@ -1,6 +1,6 @@
 ---
 nav_order: 3
-layout: default
+layout: chapter
 title: Грамматика зависимостей
 toc: true
 ---
